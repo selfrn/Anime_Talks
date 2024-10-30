@@ -1,0 +1,311 @@
+html {
+    font-size: 10px;
+}
+
+.main {
+    display: flex;
+    padding-top: 3.2rem;
+}
+
+.uno, .dos, .tres {
+    display: flex;
+    flex-direction: column;
+    width: 66.6rem; 
+    padding-left: 1.4rem;
+}
+
+.dos {
+    padding-left: 4.4rem; 
+}
+
+.tres {
+    padding-top: 2rem; 
+}
+
+.title {
+    color: #000;
+    font-family: Kameron;
+    font-size: 4rem; 
+}
+
+.bd {
+    font-size: 1.5rem; 
+}
+
+.fst {
+    width: 54rem; 
+}
+
+.snd {
+    width: 45rem;
+    padding: 3rem 0; 
+}
+
+.trd {
+    width: 44.4rem;
+}
+
+.i {
+    width: 60.3rem; 
+}
+
+.ii, .iii, .iv, .v {
+    width: 57rem; 
+}
+
+.iv {
+    padding-top: 1rem; 
+}
+
+.img {
+    padding: 1rem; 
+}
+
+.last {
+    padding-bottom: 6rem; 
+}
+
+
+
+
+@media only screen and (max-width: 1000px) and (min-width: 801px) {
+    html {
+        font-size: 10px;
+    }
+    
+    .main {
+        display: flex;
+        padding-top: 3.2rem;
+    }
+    
+    .uno, .dos, .tres {
+        display: flex;
+        flex-direction: column;
+        width: 66.6rem; 
+        padding-left: 1.4rem;
+    }
+    
+    .dos {
+        padding-left: 4.4rem; 
+    }
+    
+    .tres {
+        padding-top: 2rem; 
+    }
+    
+    .title {
+        color: #000;
+        font-family: Kameron;
+        font-size: 3.2rem; 
+    }
+    
+    .bd {
+        font-size: 1.5rem; 
+    }
+    
+    .fst {
+        width: 54rem; 
+    }
+    
+    .snd {
+        width: 45rem;
+        padding: 3rem 0; 
+    }
+    
+    .trd {
+        width: 44.4rem;
+    }
+    
+    .i {
+        width: 60.3rem; 
+    }
+    
+    .ii, .iii, .iv, .v {
+        width: 57rem; 
+    }
+    
+    .iv {
+        padding-top: 1rem; 
+    }
+    
+    .img {
+        padding: 1rem; 
+        width: 40rem;
+    }
+    
+    .last {
+        padding-bottom: 6rem; 
+    }
+    
+    
+
+}
+
+
+
+@media only screen and (max-width: 800px) and (min-width: 421px) {
+    html {
+        font-size: 8px;
+    }
+    .bg {
+        height: 260rem;
+    }
+        
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 3.2rem 2rem 0 2rem;
+    }
+    .rev{
+        flex-direction: column;
+    }
+
+    .uno, .dos, .tres {
+        display: flex;
+        flex-direction: column;
+        width: 60rem; 
+        padding-left: 1.4rem;
+    }
+
+    .dos {
+        padding-left: 1.4rem; 
+    }
+
+    .tres {
+        padding-top: 2rem; 
+    }
+
+    .title {
+        color: #000;
+        font-family: Kameron;
+        font-size: 4rem; 
+    }
+
+    .bd {
+        font-size: 1.5rem; 
+    }
+
+    .fst {
+        width: 54rem; 
+    }
+
+    .snd {
+        width: 45rem;
+        margin: 3rem 0; 
+    }
+
+    .trd {
+        width: 44.4rem;
+    }
+
+    .i {
+        width: 58rem; 
+    }
+
+    .ii, .iii, .iv, .v {
+        width: 56rem; 
+    }
+
+    .iv {
+        padding-top: 3rem; 
+    }
+
+    .img {
+        padding: 1rem; 
+        width: 60rem;
+    }
+
+    .last {
+        padding-bottom: 6rem; 
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 420px) {
+    html {
+        font-size: 8px;
+    }
+    .bg {
+        height: 200rem;
+    }
+        
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 3.2rem 2rem 0 2rem;
+        margin: 0 ;
+    }
+    .rev{
+        flex-direction: column;
+    }
+
+    .uno, .dos, .tres {
+        display: flex;
+        flex-direction: column;
+        width: 42rem; 
+        padding-left: 1.4rem;
+    }
+
+    .dos {
+        margin-left: 1.4rem; 
+    }
+
+    .tres {
+        padding-top: 2rem; 
+        margin-left: 4rem;
+    }
+
+    .title {
+        color: #000;
+        font-family: Kameron;
+        font-size: 2.4rem; 
+        margin-left: 2.4rem;
+    }
+
+    .bd {
+        font-size: 1.2rem; 
+    }
+
+    .fst {
+        width: 44rem; 
+    }
+
+    .snd {
+        width: 42rem;
+        padding: 0; 
+    }
+
+    .trd {
+        width: 44rem;
+    }
+
+    .i {
+        width: 40rem; 
+        margin-top: 1.6rem;
+        margin-left: 2.4rem;
+    }
+
+    .ii, .iii, .iv, .v {
+        width: 40rem; 
+    }
+    .ii{
+        margin-left: 3rem;
+    }
+    .iv {
+        padding-top: 3rem; 
+    }
+
+    .img {
+        margin-left: 2.4rem;
+        padding: 1rem; 
+        width: 44rem;
+    }
+
+    .last {
+        padding-bottom: 6rem; 
+    }
+
+}

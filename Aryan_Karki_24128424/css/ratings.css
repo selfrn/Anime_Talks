@@ -1,0 +1,527 @@
+html{
+  font-family: "Inter";
+  font-size: 10px;
+}
+.head{
+  display: flex;
+  padding: 2rem 2rem 0rem 2rem;
+  gap: 1rem;
+  height:34rem;
+}
+.luffy{
+  height: 30rem;
+  width: 70rem;
+}
+.text{
+  display: inline-flex;
+  padding: 1.4rem 0.7rem 4.4rem 1.8rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4rem;
+}
+.t1{
+  font-family: "Abhaya Libre ExtraBold";
+  font-weight: 800;
+  font-size: 2.5rem;
+  width: 43.5rem;
+  height: 6.3rem;
+}
+.t2{
+  font-size: 2rem;
+  width: 43.5rem;
+  height: 13.2rem;
+}
+table {
+  display: flex;
+  padding-left: 5rem;
+  margin: 5rem 5rem 0 5rem;
+  align-content: center;
+  border-collapse: collapse;
+  padding-bottom: 140px;
+}
+td, th {
+  border: 0.2rem solid #000;
+  text-align: left;
+  padding: 0.8rem;
+}
+.headers{
+  font-size: 2rem;
+}
+.a, .c, .d{
+  text-align: center;
+}
+.sn{
+  font-weight: bold;
+  padding: 0.6rem 4rem;
+  font-size: 1.8rem;
+  
+}
+.title{
+  display: flex;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  width: 60rem;
+  padding: 2rem 0.5rem;
+}
+.txt{
+  font-size: 1.4rem;
+  display: flex;
+  font-weight: bold;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 60rem;
+  height: 7rem;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.img{
+  height: 7rem;
+}
+.tlt{
+  text-decoration-line: underline;
+  padding-bottom: 1rem;
+}
+.status{
+  font-weight: 900;
+  font-size: 1.8rem;
+  padding: 0.6rem 8rem 0.6rem 2rem;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 801px){
+  html {
+    font-family: "Inter";
+    font-size: 8px;
+    /* align-content: center; */
+    font-size: 8px;
+  }
+  
+  .bg {
+    align-content: center;
+      height:292rem;
+      width: auto;
+  }
+  
+  .head{
+    display: flex;
+    padding: 2rem 2rem 0rem 2rem;
+    gap: 0.6rem;
+    height:34rem;
+  }
+  .luffy{
+    height: 30rem;
+    width: 80rem;
+    margin-left: -78rem;
+  }
+  .text{
+    display: inline-flex;
+    padding: 1.4rem 0.7rem 4.4rem 1.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-left: 18rem;
+    margin-top: 35rem;
+  }
+  .t1{
+    font-family: "Abhaya Libre ExtraBold";
+    font-weight: 800;
+    font-size: 3.5rem;
+    width: 74rem;
+    height: 6.3rem;
+  }
+  .t2{
+    font-size: 2.5rem;
+    width: 74rem;
+    height: 13.2rem;
+  }
+  table {
+    display: flex;
+    margin-left: -2rem;
+    margin-top: 24rem;
+    align-content: center;
+    border-collapse: collapse;
+    padding-bottom: 140px;
+  }
+  td, th {
+    border: 0.2rem solid #000;
+    text-align: left;
+    padding: 0.8rem;
+  }
+  .headers{
+    font-size: 2rem;
+  }
+  .a, .c, .d{
+    text-align: center;
+  }
+  .sn{
+    font-weight: bold;
+    padding: 4.4rem 4.4rem;
+    font-size: 1.5rem;
+    
+  }
+  .title{
+    display: flex;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 58rem;
+    padding: 2rem 0.5rem;
+  }
+  .txt{
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 60rem;
+    height: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .img{
+    height: 7rem;
+  }
+  .tlt{
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+    width: 30rem;
+  }
+  .status{
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 0.6rem 2.4rem 0.6rem 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 601px){
+  html {
+    font-family: "Inter";
+    font-size: 8px;
+    /* align-content: center; */
+    font-size: 8px;
+  }
+  
+  .bg {
+    align-content: center;
+      height:292rem;
+      width: auto;
+  }
+  
+  .head{
+    display: flex;
+    padding: 2rem 2rem 0rem 2rem;
+    gap: 0.6rem;
+    height:34rem;
+  }
+  .luffy{
+    height: 30rem;
+    width: 80rem;
+    margin-left: -78rem;
+  }
+  .text{
+    display: inline-flex;
+    padding: 1.4rem 0.7rem 4.4rem 1.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-left: 3rem;
+    margin-top: 35rem;
+  }
+  .t1{
+    font-family: "Abhaya Libre ExtraBold";
+    font-weight: 800;
+    font-size: 3rem;
+    width: 74rem;
+    height: 6.3rem;
+  }
+  .t2{
+    font-size: 2rem;
+    width: 66rem;
+    height: 13.2rem;
+  }
+  table {
+    display: flex;
+    margin-left: -2rem;
+    margin-top: 24rem;
+    align-content: center;
+    border-collapse: collapse;
+    padding-bottom: 140px;
+  }
+  td, th {
+    border: 0.2rem solid #000;
+    text-align: left;
+    padding: 0.8rem;
+  }
+  .headers{
+    font-size: 2rem;
+  }
+  .a, .c, .d{
+    text-align: center;
+  }
+  .sn{
+    font-weight: bold;
+    padding: 4.4rem 4.4rem;
+    font-size: 1.5rem;
+    
+  }
+  .title{
+    display: flex;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 40rem;
+    padding: 2rem 0.5rem;
+  }
+  .txt{
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 60rem;
+    height: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .img{
+    height: 7rem;
+  }
+  .tlt{
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+    width: 20rem;
+  }
+  .status{
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 0.6rem 2.4rem 0.6rem 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 421px) {
+  html {
+    font-family: "Inter";
+    font-size: 8px;
+    /* align-content: center; */
+    font-size: 8px;
+  }
+  
+  .bg {
+      height:292rem;
+      width: auto;
+  }
+  
+  .head{
+    display: flex;
+    padding: 2rem 2rem 0rem 2rem;
+    gap: 1rem;
+    height:34rem;
+  }
+  .luffy{
+    margin-left: -57.3rem;
+    height: 23rem;
+    width: 56rem;
+    align-items: center;
+    /* margin-left: 10rem; */
+  }
+  .text{
+    display: inline-flex;
+    padding: 1.4rem 0.7rem 4.4rem 1.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-top: 24rem;
+  }
+  .t1{
+    font-family: "Abhaya Libre ExtraBold";
+    font-weight: 800;
+    font-size: 2.5rem;
+    width: 54rem;
+    height: 6.3rem;
+  }
+  .t2{
+    font-size: 2rem;
+    width: 54rem;
+    height: 13.2rem;
+  }
+  table {
+    display: flex;
+    /* padding-left: 5rem; */
+    margin: 3rem 5rem 0 -3rem;
+    margin-top: 24rem;
+    align-content: center;
+    border-collapse: collapse;
+    padding-bottom: 140px;
+  }
+  td, th {
+    border: 0.2rem solid #000;
+    text-align: left;
+    padding: 0.8rem;
+  }
+  .headers{
+    font-size: 2rem;
+  }
+  .a, .c, .d{
+    text-align: center;
+  }
+  .sn{
+    font-weight: bold;
+    padding: 0.4rem 2.4rem;
+    font-size: 1.5rem;
+    
+  }
+  .title{
+    display: flex;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 30rem;
+    padding: 2rem 0.5rem;
+  }
+  .txt{
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 60rem;
+    height: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .img{
+    height: 7rem;
+  }
+  .tlt{
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+    width: 20rem;
+  }
+  .status{
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 0.6rem 2.4rem 0.6rem 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 420px) {
+  html {
+    font-family: "Inter";
+    font-size: 6px;
+    /* align-content: center; */
+    font-size: 8px;
+  }
+  
+  .bg {
+      height:292rem;
+      width: 420px;
+  }
+  
+  .head{
+    display: flex;
+    padding: 2rem 2rem 0rem 2rem;
+    gap: 1rem;
+    height:34rem;
+  }
+  .luffy{
+    margin-left: -57.3rem;
+    height: 23rem;
+    width: 56rem;
+    align-items: center;
+    /* margin-left: 10rem; */
+  }
+  .text{
+    display: inline-flex;
+    padding: 1.4rem 0.7rem 4.4rem 1.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-top: 24rem;
+  }
+  .t1{
+    font-family: "Abhaya Libre ExtraBold";
+    font-weight: 800;
+    font-size: 2.5rem;
+    width: 54rem;
+    height: 6.3rem;
+  }
+  .t2{
+    font-size: 2rem;
+    width: 54rem;
+    height: 13.2rem;
+  }
+  table {
+    display: flex;
+    /* padding-left: 5rem; */
+    margin: 3rem 5rem 0 -3rem;
+    margin-top: 24rem;
+    align-content: center;
+    border-collapse: collapse;
+    padding-bottom: 140px;
+  }
+  td, th {
+    border: 0.2rem solid #000;
+    text-align: left;
+    padding: 0.8rem;
+  }
+  .headers{
+    font-size: 2rem;
+  }
+  .a, .c, .d{
+    text-align: center;
+  }
+  .sn{
+    font-weight: bold;
+    padding: 0.4rem 2.4rem;
+    font-size: 1.5rem;
+    
+  }
+  .title{
+    display: flex;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 30rem;
+    padding: 2rem 0.5rem;
+  }
+  .txt{
+    font-size: 1.4rem;
+    display: flex;
+    font-weight: bold;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 60rem;
+    height: 7rem;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .img{
+    height: 7rem;
+  }
+  .tlt{
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+    width: 20rem;
+  }
+  .status{
+    font-weight: 900;
+    font-size: 1.8rem;
+    padding: 0.6rem 2.4rem 0.6rem 1rem;
+  }
+}
+
+
+
+
+
+
+
+

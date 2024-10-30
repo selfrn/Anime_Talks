@@ -1,0 +1,1474 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #d3ded3;
+    font-family: 'Inter';
+    overflow-x: hidden;
+    width: auto;
+}
+.lg{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.nav_bar {
+    display: flex;
+    gap: 35rem;
+    position: fixed;
+    margin-bottom: 1rem; 
+    z-index: 999;
+    height: 7rem; 
+    width: 148rem;
+    box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+    background-color: #001014;
+    color: #FFFFFF;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    
+}
+
+li {
+    display: flex;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.nav_bar a:hover a:visited {
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.logo {
+    position: relative;
+    left: 2rem;
+    top: 0.2rem;
+    width: 6.8rem;
+    height: 6rem;
+    padding: 0.2rem;
+    display: inline-block;
+}
+
+.webName {
+    position: relative;
+    display: inline-block;
+    font-size: 4.2rem; 
+    font-family: 'Karantina';
+    color: whitesmoke;
+    text-align: left;
+    top: 1.4rem; 
+    left: 2rem;
+}
+
+.navigation {
+    margin: auto;
+}
+
+.home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+    position: relative;
+    top: 2.2rem;
+    display: inline-block;
+    align-content: right;
+    direction: inherit;
+    font-size: 2rem; 
+}
+
+.bg {
+    width: 124rem;
+    background-color: #FFFFFF;
+    margin: 70px auto 0 auto;
+    font-family: "Inter";
+}
+
+footer {
+    display: flex;
+    gap: 10rem; 
+    flex-direction: row;
+    width: 148rem; 
+    height: 24.8rem; 
+    background: #001014;
+}
+
+.caption {
+    margin-top: 6rem; 
+    width: 30.9rem; 
+    height: 12rem; 
+    color: #FFF;
+    font-family: 'Karantina';
+    font-size: 4rem; 
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 12rem;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.4rem; 
+    gap: 2rem;
+    color: #FFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 19.8rem; 
+    height: 3.6rem; 
+}
+
+.location {
+    font-size: 2.2rem; 
+}
+
+.contact-details {
+    display: flex;
+    font-size: 1.7rem;
+    gap: 0.4rem; 
+    flex-direction: column;
+}
+
+.social {
+    width: 45.4rem; 
+    height: 14.6rem;
+    display: flex;
+    margin-top: 4.4rem; 
+    flex-direction: column;
+    gap: 2.7rem; 
+    align-items: center;
+}
+
+.address {
+    width: 22rem;
+}
+
+.follow {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 3rem; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 33.5rem; 
+    height: 3.6rem; 
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem; 
+}
+
+.social-img {
+    width: 5.5rem; 
+    height: 5.5rem; 
+}
+
+
+
+
+@media only screen and (max-width: 1260px) and (min-width: 1201px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 10px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 30rem;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: 7rem; 
+        width: 1260px;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: flex;
+        gap: 1.6rem;
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        position: relative;
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    
+    footer {
+        display: flex;
+        gap: 6rem; 
+        flex-direction: row;
+        width: 1260px; 
+        height: 24.8rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 6rem; 
+        width: 30.9rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 4rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 12rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4.4rem; 
+        gap: 2rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 2.2rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.7rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 38rem; 
+        height: 14.6rem;
+        display: flex;
+        margin-top: 4.4rem; 
+        flex-direction: column;
+        gap: 2.7rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 22rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 3rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 33.5rem; 
+        height: 3.6rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 2.4rem; 
+    }
+    
+    .social-img {
+        width: 5.5rem; 
+        height: 5.5rem; 
+    }
+}
+
+
+@media only screen and (max-width: 1200px) and (min-width: 1001px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 8px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 10rem;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: 7rem; 
+        width: 1200px;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: flex;
+        gap: 1.6rem;
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        position: relative;
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    
+    footer {
+        display: flex;
+        gap: 4rem; 
+        flex-direction: row;
+        width: 1200px; 
+        height: 24.8rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 6rem; 
+        width: 28rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 3.6rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 4rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4.4rem; 
+        gap: 2rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 2.2rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.7rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 40rem; 
+        height: 14.6rem;
+        display: flex;
+        margin-top: 4.4rem; 
+        flex-direction: column;
+        gap: 2.7rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 22rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 3rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 33.5rem; 
+        height: 3.6rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem; 
+    }
+    
+    .social-img {
+        width: 4.8rem; 
+        height: 4.8rem; 
+    }
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 901px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 8px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 10rem;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: 7rem; 
+        width: 1000px;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: flex;
+        gap: 2rem;
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        display: none;
+        position: relative;
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    
+    footer {
+        display: flex;
+        gap: 4rem; 
+        flex-direction: row;
+        width: 1000px; 
+        height: 24.8rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 6rem; 
+        width: 30.9rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 4rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 4rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4.4rem; 
+        gap: 2rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 2.2rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.7rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 34rem; 
+        height: 14.6rem;
+        display: flex;
+        margin-top: 4.4rem; 
+        flex-direction: column;
+        gap: 2.7rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 22rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 3rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 26rem; 
+        height: 3.4rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem; 
+    }
+    
+    .social-img {
+        width: 4.5rem; 
+        height: 4.5rem; 
+    }
+
+}
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 801px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 9px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 900px;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: rem; 
+        width: 900px;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: flex;
+        gap: 1.5rem;
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        position: relative;
+        display: none;
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    
+    footer {
+        display: flex;
+        gap: 6rem; 
+        flex-direction: row;
+        width: 900px; 
+        height: 26rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 4.8rem; 
+        width: 36.6rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 4rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 4.8rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4.4rem; 
+        gap: 1rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 2.2rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.4rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 18rem; 
+        height: 12rem;
+        display: flex;
+        margin-top: 5.4rem; 
+        flex-direction: column;
+        gap: 2.8rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 16rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 2.4rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 24rem; 
+        height: 3rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1.6rem; 
+    }
+    
+    .social-img {
+        width: 3.5rem; 
+        height: 3.5rem; 
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 6px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 26rem;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: 7rem; 
+        width: 800px;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: none;
+        gap: 3rem;
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        position: relative;
+        
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    
+    footer {
+        display: flex;
+        gap: 2rem; 
+        flex-direction: row;
+        width: 800px; 
+        height: 22rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 4.4rem; 
+        width: 20.4rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 2.6rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 2rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.6rem; 
+        gap: 1rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 1.8rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.2rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 4rem; 
+        height: 12rem;
+        display: flex;
+        margin-top: 4.4rem; 
+        flex-direction: column;
+        gap: 2.4rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 14rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 2.5rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 20rem; 
+        height: 3rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem; 
+    }
+    
+    .social-img {
+        width: 3rem; 
+        height: 3rem; 
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 421px){
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 6px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 26rem;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: 7rem; 
+        width: 100rem;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: none;
+        gap: 3rem;
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        position: relative;
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    footer {
+        display: flex;
+        gap: 2rem; 
+        flex-direction: row;
+        width: 100rem; 
+        height: 22rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 4.4rem; 
+        width: 18.8rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 2.4rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 2rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.6rem; 
+        gap: 1rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 1.8rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.2rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 4rem; 
+        height: 12rem;
+        display: flex;
+        margin-top: 4.4rem; 
+        flex-direction: column;
+        gap: 2.7rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 14rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 2rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 20rem; 
+        height: 3rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem; 
+    }
+    
+    .social-img {
+        width: 2.5rem; 
+        height: 2.5rem; 
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        font-size: 6px;
+    }
+    
+    body {
+        background-color: #d3ded3;
+        font-family: 'Inter';
+        overflow-x: hidden;
+        width: auto;
+    }
+    .lg{
+        display: flex;
+        gap: 0.2rem;
+    }
+    
+    .nav_bar {
+        display: flex;
+        gap: 26rem;
+        position: fixed;
+        margin-bottom: 1rem; 
+        z-index: 999;
+        height: 7rem; 
+        width: 420px;
+        box-shadow: 0px 0.4rem 0.4rem 0px rgba(0, 0, 0, 0.25); 
+        background-color: #001014;
+        color: #FFFFFF;
+        top: 0;
+    }
+    
+    ul {
+        display: none;
+        gap: 3rem;
+        
+        
+    }
+    
+    li {
+        display: flex;
+        
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #ffffff;
+        transition: color 0.3s;
+    }
+    
+    .nav_bar a:hover a:visited {
+        color: #d3d3d3;
+        text-decoration: none;
+    }
+    
+    .logo {
+        position: relative;
+        left: 2rem;
+        top: 0.2rem;
+        width: 6.8rem;
+        height: 6rem;
+        padding: 0.2rem;
+        display: inline-block;
+    }
+    
+    .webName {
+        position: relative;
+        display: inline-block;
+        font-size: 4.2rem; 
+        font-family: 'Karantina';
+        color: whitesmoke;
+        text-align: left;
+        top: 1.4rem; 
+        left: 2rem;
+    }
+    
+    .navigation {
+        margin: auto;
+    }
+    
+    .home, .hotToday, .upcomingAnime, .ratings, .submission, .reference {
+        position: relative;
+        top: 2.2rem;
+        display: inline-block;
+        align-content: right;
+        direction: inherit;
+        font-size: 2rem; 
+    }
+    
+    .bg {
+        width: 124rem;
+        background-color: #FFFFFF;
+        margin: 70px auto 0 auto;
+        font-family: "Inter";
+    }
+    
+    footer {
+        display: flex;
+        gap: 1.2rem; 
+        flex-direction: row;
+        width: 420px; 
+        height: 18rem; 
+        background: #001014;
+    }
+    
+    .caption {
+        margin-top: 4.4rem; 
+        width: 15.6rem; 
+        height: 12rem; 
+        color: #FFF;
+        font-family: 'Karantina';
+        font-size: 2rem; 
+        font-style: normal;
+        font-weight: 400;
+        margin-left: 1.6rem;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.6rem; 
+        gap: 1rem;
+        color: #FFF;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 19.8rem; 
+        height: 3.6rem; 
+    }
+    
+    .location {
+        font-size: 1.8rem; 
+    }
+    
+    .contact-details {
+        display: flex;
+        font-size: 1.2rem;
+        gap: 0.4rem; 
+        flex-direction: column;
+    }
+    
+    .social {
+        width: 4rem; 
+        height: 12rem;
+        display: flex;
+        margin-top: 4.4rem; 
+        flex-direction: column;
+        gap: 2.2rem; 
+        align-items: center;
+    }
+    
+    .address {
+        width: 14rem;
+    }
+    
+    .follow {
+        color: #FFF;
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 2rem; 
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 20rem; 
+        height: 3rem; 
+    }
+    
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem; 
+    }
+    
+    .social-img {
+        width: 2.2rem; 
+        height: 2.2rem; 
+    }
+
+}
+
+
+
+

@@ -1,0 +1,599 @@
+html {
+    font-size: 10px;
+}
+
+.erthng {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 76rem; 
+    gap: 2rem; 
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6.4rem; 
+    margin-left: 7rem;
+    gap: 3rem; 
+}
+
+.title {
+    font-family: "Karantina";
+    font-size: 5rem;
+}
+
+.para {
+    width: 68rem; 
+    font-size: 3.4rem; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    margin-left: 15.4rem; 
+    width: 60rem; 
+}
+
+.whl {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem; 
+    padding-top: 2rem; 
+}
+
+.name {
+    display: flex;
+    gap: 3.8rem; 
+}
+
+.bg {
+    height: 112rem;
+}
+
+.bgi {
+    padding-top: 4.4rem; 
+    padding-left: 4.8rem; 
+}
+
+.submission {
+    display: flex;
+    gap: 3rem; 
+}
+
+.sub {
+    position: relative;
+    font-size: 2.5rem;
+}
+
+.box {
+    height: 2.9rem;
+    flex-shrink: 0;
+    border: 0.1rem solid #001014; 
+}
+
+.label {
+    font-size: 1.5rem; 
+}
+
+.uno {
+    width: 49.7rem; 
+}
+
+.dos, .tres {
+    width: 22.9rem; 
+}
+
+.quatro {
+    display: flex;
+    flex-direction: column;
+}
+
+.subbox {
+    border: 0.1rem solid #001014; 
+    height: 17.4rem; 
+    width: 45.4rem; 
+}
+
+.button {
+    margin-top: 16rem; 
+    width: 7rem; 
+    height: 3.2rem; 
+    border-radius: 0.5rem; 
+    background: #808080;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem; 
+    box-shadow: none;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 801px){
+    html {
+        font-size: 8px;
+    }
+    
+    .erthng {
+        display: flex;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 76rem; 
+        gap: 2rem; 
+    }
+    
+    .txt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 6.4rem; 
+        margin-left: 7rem;
+        gap: 3rem; 
+    }
+    
+    .title {
+        font-family: "Karantina";
+        font-size: 5rem;
+    }
+    
+    .para {
+        width: 68rem; 
+        font-size: 3.4rem; 
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15rem;
+        margin-left: 15.4rem; 
+        width: 60rem; 
+    }
+    
+    .whl {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem; 
+        padding-top: 2rem; 
+    }
+    
+    .name {
+        display: flex;
+        gap: 3.8rem; 
+    }
+    
+    .bg {
+        height: 112rem;
+    }
+    
+    .bgi {
+        padding-top: 4.4rem; 
+        padding-left: 4.8rem; 
+        width: 24rem;
+        height: 60rem;
+    }
+    
+    .submission {
+        display: flex;
+        gap: 3rem; 
+    }
+    
+    .sub {
+        position: relative;
+        font-size: 2.5rem;
+    }
+    
+    .box {
+        height: 2.9rem;
+        flex-shrink: 0;
+        border: 0.1rem solid #001014; 
+    }
+    
+    .label {
+        font-size: 1.5rem; 
+    }
+    
+    .uno {
+        width: 49.7rem; 
+    }
+    
+    .dos, .tres {
+        width: 22.9rem; 
+    }
+    
+    .quatro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subbox {
+        border: 0.1rem solid #001014; 
+        height: 17.4rem; 
+        width: 45.4rem; 
+    }
+    
+    .button {
+        margin-top: 16rem; 
+        width: 7rem; 
+        height: 3.2rem; 
+        border-radius: 0.5rem; 
+        background: #808080;
+        color: #FFF;
+        text-align: center;
+        font-size: 1.2rem; 
+        box-shadow: none;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 601px){
+    html {
+        font-size: 10px;
+    }
+    
+    .erthng {
+        display: flex;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 69rem; 
+    }
+    
+    .txt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem; 
+        margin-left: 4rem;
+        gap: 1.4rem; 
+    }
+    
+    .title {
+        font-family: "Karantina";
+        font-size: 3.9rem;
+    }
+    
+    .para {
+        width: 38rem; 
+        font-size: 1.8rem; 
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-left: 5em; 
+        width: 60rem; 
+    }
+    
+    .whl {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem; 
+        padding-top: 2rem; 
+    }
+    
+    .name {
+        display: flex;
+        gap: 3.8rem; 
+    }
+    
+    .bg {
+        height: 90rem;
+    }
+    
+    .bgi {
+        margin-top: -2.4rem;
+        margin-left: -30rem;
+        width: 12rem;
+        height: 30rem;
+    }
+    
+    .submission {
+        display: flex;
+        gap: 2rem; 
+    }
+    
+    .sub {
+        position: relative;
+        font-size: 2.5rem;
+    }
+    
+    .box {
+        height: 2.9rem;
+        flex-shrink: 0;
+        border: 0.1rem solid #001014; 
+    }
+    
+    .label {
+        font-size: 1.5rem; 
+    }
+    
+    .uno {
+        width: 44rem; 
+    }
+    
+    .dos, .tres {
+        width: 20rem; 
+    }
+    
+    .quatro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subbox {
+        border: 0.1rem solid #001014; 
+        height: 17.4rem; 
+        width: 50.4rem; 
+    }
+    
+    .button {
+        margin-top: 22rem;
+        margin-left: -10rem;
+        width: 7rem;
+        height: 3.2rem;
+        border-radius: 0.5rem;
+        background: #808080;
+        color: #FFF;
+        text-align: center;
+        font-size: 1.2rem;
+        box-shadow: none;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 600px) and (min-width: 421px){
+    html {
+        font-size: 8px;
+    }
+    
+    .erthng {
+        display: flex;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 69rem; 
+    }
+    
+    .txt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem; 
+        margin-left: 4rem;
+        gap: 1.4rem; 
+    }
+    
+    .title {
+        font-family: "Karantina";
+        font-size: 3.9rem;
+    }
+    
+    .para {
+        width: 38rem; 
+        font-size: 1.8rem; 
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-left: 5em; 
+        width: 60rem; 
+    }
+    
+    .whl {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem; 
+        padding-top: 2rem; 
+    }
+    
+    .name {
+        display: flex;
+        gap: 3.8rem; 
+    }
+    
+    .bg {
+        height: 90rem;
+    }
+    
+    .bgi {
+        margin-top: -2.4rem;
+        margin-left: -30rem;
+        width: 12rem;
+        height: 30rem;
+    }
+    
+    .submission {
+        display: flex;
+        gap: 2rem; 
+    }
+    
+    .sub {
+        position: relative;
+        font-size: 2.5rem;
+    }
+    
+    .box {
+        height: 2.9rem;
+        flex-shrink: 0;
+        border: 0.1rem solid #001014; 
+    }
+    
+    .label {
+        font-size: 1.5rem; 
+    }
+    
+    .uno {
+        width: 44rem; 
+    }
+    
+    .dos, .tres {
+        width: 20rem; 
+    }
+    
+    .quatro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subbox {
+        border: 0.1rem solid #001014; 
+        height: 17.4rem; 
+        width: 50.4rem; 
+    }
+    
+    .button {
+        margin-top: 22rem;
+        margin-left: -10rem;
+        width: 7rem;
+        height: 3.2rem;
+        border-radius: 0.5rem;
+        background: #808080;
+        color: #FFF;
+        text-align: center;
+        font-size: 1.2rem;
+        box-shadow: none;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 421px){
+    html {
+        font-size: 6px;
+    }
+    
+    .erthng {
+        display: flex;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 69rem; 
+    }
+    
+    .txt {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4rem; 
+        margin-left: 4rem;
+        gap: 1.4rem; 
+    }
+    
+    .title {
+        font-family: "Karantina";
+        font-size: 3.9rem;
+    }
+    
+    .para {
+        width: 38rem; 
+        font-size: 1.8rem; 
+    }
+    
+    .form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        margin-left: 5em; 
+        width: 60rem; 
+    }
+    
+    .whl {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem; 
+        padding-top: 2rem; 
+    }
+    
+    .name {
+        display: flex;
+        gap: 3.8rem; 
+    }
+    
+    .bg {
+        height: 90rem;
+    }
+    
+    .bgi {
+        margin-top: -2.4rem;
+        margin-left: -30rem;
+        width: 12rem;
+        height: 30rem;
+    }
+    
+    .submission {
+        display: flex;
+        gap: 2rem; 
+    }
+    
+    .sub {
+        position: relative;
+        font-size: 2.5rem;
+    }
+    
+    .box {
+        height: 2.9rem;
+        flex-shrink: 0;
+        border: 0.1rem solid #001014; 
+    }
+    
+    .label {
+        font-size: 1.5rem; 
+    }
+    
+    .uno {
+        width: 44rem; 
+    }
+    
+    .dos, .tres {
+        width: 20rem; 
+    }
+    
+    .quatro {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .subbox {
+        border: 0.1rem solid #001014; 
+        height: 17.4rem; 
+        width: 50.4rem; 
+    }
+    
+    .button {
+        margin-top: 22rem;
+        margin-left: -10rem;
+        width: 7rem;
+        height: 3.2rem;
+        border-radius: 0.5rem;
+        background: #808080;
+        color: #FFF;
+        text-align: center;
+        font-size: 1.2rem;
+        box-shadow: none;
+    }
+    
+}
+
+
+
+
+
+
+
+

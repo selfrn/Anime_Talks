@@ -1,0 +1,757 @@
+html {
+    font-size: 10px;
+}
+.search-bar {
+    position: relative;
+    display: flex;
+    top: 2rem;
+    height: 5rem;
+    width: 40rem; 
+    margin-left: 2rem; 
+    margin-bottom: 20rem; 
+    align-items: center;
+    gap: 1.3rem; 
+    border-color: black;
+    border-radius: 4rem;
+    border: 0.1rem solid #000; 
+    background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+    padding-left: 7rem; 
+    font-size: 3rem; 
+}
+
+.bg {
+    height: 80rem;
+}
+
+.jjk-yuji {
+    position: relative;
+    width: 30rem;
+    left: 4.5rem;
+    top: -11rem; 
+}
+
+.jjk {
+    position: relative;
+    left: 36.2rem; 
+    bottom: 30.6rem; 
+    font-size: 2.7rem; 
+    width: 25rem; 
+}
+
+.jjk-news {
+    position: relative;
+    width: 51rem;
+    top: -22rem;
+    left: 6rem;
+    font-size: 1.8rem;
+}
+
+.c{
+    font-size: 40px;
+    display:block;
+}
+
+.separation {
+    position: relative;
+    width: 0.5rem; 
+    height: 68rem;
+    bottom: 73rem; 
+    left: 67rem; 
+    background: #d3ded3;
+}
+
+.anime-talk {
+    position: relative;
+    font-family: karantina;
+    font-size: 4.5rem; 
+    bottom: 140rem; 
+    left: 72rem;
+    width: 14rem;
+}
+
+.para {
+    position: relative;
+    font-size: 2rem; 
+    width: 48.4rem; 
+    left: 69.8rem; 
+    bottom: 137.6rem; 
+}
+
+#icon {
+    position: relative;
+    left: 0.5rem; 
+    font-size: 3.5rem; 
+    opacity: 0.75; 
+}
+
+.pokemon {
+    display: flex;
+    margin-left: 70rem;
+    margin-top: -132.5rem; 
+    width: 46.5rem; 
+    padding: 1.6rem 0 3.6rem 0; 
+    flex-direction: column;
+    align-items: center;
+    gap: 1.9rem; 
+    border: 0.3rem solid #001014; 
+}
+
+.pm {
+    width: 28rem;
+}
+
+.horizons {
+    text-align: center;
+    width: 38rem; 
+    font-size: 2.2rem; 
+    font-weight: 400;
+}
+@media only screen and (max-width: 1200px) and (min-width: 1001px) {
+    html {
+        font-size: 9.4px;
+    }
+    .search-bar {
+        position: relative;
+        display: flex;
+        top: 2rem;
+        height: 5rem;
+        width: 40rem; 
+        margin-left: 2rem; 
+        margin-bottom: 20rem; 
+        align-items: center;
+        gap: 1.3rem; 
+        border-color: black;
+        border-radius: 4rem;
+        border: 0.1rem solid #000; 
+        background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+        padding-left: 7rem; 
+        font-size: 3rem; 
+    }
+    
+    .bg {
+        height: 80rem;
+        width: 1000px;
+    }
+    
+    .jjk-yuji {
+        position: relative;
+        width: 28rem;
+        left: 4rem;
+        top: -13rem; 
+    }
+    
+    .jjk {
+        position: relative;
+        left: 34rem; 
+        bottom: 31.4rem; 
+        font-size: 2.7rem; 
+        width: 25rem; 
+    }
+    
+    .jjk-news {
+        position: relative;
+        width: 51rem;
+        top: -24rem;
+        left: 4rem;
+        font-size: 1.8rem;
+    }
+    
+    .separation {
+        position: relative;
+        width: 0.5rem; 
+        height: 68rem;
+        bottom: 73rem; 
+        left: 60rem; 
+        background: #d3ded3;
+    }
+    
+    .anime-talk {
+        position: relative;
+        font-family: karantina;
+        font-size: 4.5rem; 
+        bottom: 140rem; 
+        left: 62rem;
+        width: 14rem;
+    }
+    
+    .para {
+        position: relative;
+        font-size: 2rem; 
+        width: 42rem; 
+        left: 62.4rem; 
+        bottom: 137.6rem; 
+    }
+    
+    #icon {
+        position: relative;
+        left: 0.5rem; 
+        font-size: 3.5rem; 
+        opacity: 0.75; 
+    }
+    
+    .pokemon {
+        display: flex;
+        margin-left: 62rem;
+        margin-top: -132.5rem; 
+        width: 42rem; 
+        padding: 1.6rem 0 3.6rem 0; 
+        flex-direction: column;
+        align-items: center;
+        gap: 1.9rem; 
+        border: 0.3rem solid #001014; 
+    }
+    
+    .pm {
+        width: 28rem;
+    }
+    
+    .horizons {
+        text-align: center;
+        width: 38rem; 
+        font-size: 2.2rem; 
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 901px) {
+    html {
+        font-size: 9px;
+    }
+    .search-bar {
+        position: relative;
+        display: flex;
+        top: 2rem;
+        height: 5rem;
+        width: 32rem; 
+        margin-left: 2rem; 
+        margin-bottom: 20rem; 
+        align-items: center;
+        gap: 1.3rem; 
+        border-color: black;
+        border-radius: 4rem;
+        border: 0.1rem solid #000; 
+        background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+        padding-left: 7rem; 
+        font-size: 3rem; 
+    }
+    
+    .bg {
+        height: 70rem;
+        width: 100rem;
+    }
+    
+    .jjk-yuji {
+        position: relative;
+        width: 40rem;
+        left: 3rem;
+        top: -14rem; 
+    }
+    
+    .jjk {
+        position: relative;
+        left: 3rem;
+        bottom: 12rem;
+        font-size: 2.4rem;
+        width: 40rem;
+    }
+    
+    .jjk-news {
+        position: relative;
+        width: 40rem;
+        top: -10rem;
+        left: 3rem;
+        font-size: 1.5rem;
+    }
+    
+    .separation {
+        position: relative;
+        width: 0.5rem;
+        height: 66rem;
+        bottom: 72rem;
+        left: 50rem;
+        background: #d3ded3;
+    }
+    
+    .anime-talk {
+        position: relative;
+        font-family: karantina;
+        font-size: 4.5rem;
+        bottom: 134rem;
+        left: 58rem;
+        width: 15rem;
+    }
+    
+    .para {
+        position: relative;
+        font-size: 1.5rem;
+        width: 44rem;
+        left: 54.8rem;
+        bottom: 130.6rem;
+    }
+    
+    #icon {
+        position: relative;
+        left: 0.5rem; 
+        font-size: 3.5rem; 
+        opacity: 0.75; 
+    }
+    
+    .pokemon {
+        display: flex;
+        margin-left: 56.6rem;
+        margin-top: -122rem;
+        width: 40rem;
+        padding: 1.4rem 0 3.4rem 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+        border: 0.3rem solid #001014; 
+    }
+    
+    .pm {
+        width: 26rem;
+    }
+    
+    .horizons {
+        text-align: center;
+        width: 38rem; 
+        font-size: 2.2rem; 
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 801px) {
+    html {
+        font-size: 8.2px;
+    }
+    .search-bar {
+        position: relative;
+        display: flex;
+        top: 2rem;
+        height: 5rem;
+        width: 35rem; 
+        margin-left: 2rem; 
+        margin-bottom: 20rem; 
+        align-items: center;
+        gap: 1.3rem; 
+        border-color: black;
+        border-radius: 4rem;
+        border: 0.1rem solid #000; 
+        background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+        padding-left: 7rem; 
+        font-size: 3rem; 
+    }
+    
+    .bg {
+        height: 70rem;
+        width: 100rem;
+    }
+    
+    .jjk-yuji {
+        position: relative;
+        width: 26rem;
+        left: 3.5rem;
+        top: -14rem; 
+    }
+    
+    .jjk {
+        position: relative;
+        left: 31.2rem;
+        bottom: 30.6rem;
+        font-size: 2.4rem;
+        width: 22rem;
+    }
+    
+    .jjk-news {
+        position: relative;
+        width: 44rem;
+        top: -26rem;
+        left: 4rem;
+        font-size: 1.5rem;
+    }
+    
+    .separation {
+        position: relative;
+        width: 0.5rem;
+        height: 66rem;
+        bottom: 66rem;
+        left: 53rem;
+        background: #d3ded3;
+    }
+    
+    .anime-talk {
+        position: relative;
+        font-family: karantina;
+        font-size: 4.5rem;
+        bottom: 134rem;
+        left: 58rem;
+        width: 15rem;
+    }
+    
+    .para {
+        position: relative;
+        font-size: 1.5rem;
+        width: 44rem;
+        left: 54.8rem;
+        bottom: 130.6rem;
+    }
+    
+    #icon {
+        position: relative;
+        left: 0.5rem; 
+        font-size: 3.5rem; 
+        opacity: 0.75; 
+    }
+    
+    .pokemon {
+        display: flex;
+        margin-left: 56.6rem;
+        margin-top: -122rem;
+        width: 40rem;
+        padding: 1.4rem 0 3.4rem 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.6rem;
+        border: 0.3rem solid #001014; 
+    }
+    
+    .pm {
+        width: 26rem;
+    }
+    
+    .horizons {
+        text-align: center;
+        width: 38rem; 
+        font-size: 2.2rem; 
+        font-weight: 400;
+    }
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 601px) {
+    html {
+        font-size: 10px;
+    }
+    .search-bar {
+        position: relative;
+        display: flex;
+        top: 2rem;
+        height: 5rem;
+        width: 30rem; 
+        margin-left: 2rem; 
+        margin-bottom: 20rem; 
+        align-items: center;
+        gap: 1.3rem; 
+        border-color: black;
+        border-radius: 4rem;
+        border: 0.1rem solid #000; 
+        background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+        padding-left: 7rem; 
+        font-size: 3rem; 
+    }
+    
+    .bg {
+        height: 110rem;
+        width: 124rem;
+    }
+    
+    .jjk-yuji {
+        position: relative;
+        width: 30rem;
+        left: 4.5rem;
+        top: 10rem; 
+    }
+    
+    .jjk {
+        position: relative;
+        left: 36.2rem; 
+        bottom: 9.6rem; 
+        font-size: 2.7rem; 
+        width: 25rem; 
+    }
+    
+    .jjk-news {
+        position: relative;
+        width: 51rem;
+        top: -4rem;
+        left: 6rem;
+        font-size: 1.8rem;
+    }
+    
+    .separation {
+        position: relative;
+        width: 0.5rem;
+        height: 64rem;
+        bottom: 77rem;
+        left: 34rem;
+        background: #d3ded3;
+        transform: rotate(90deg);
+    }
+    
+    .anime-talk {
+        position: relative;
+        font-family: karantina;
+        font-size: 4.5rem;
+        bottom: 137.2rem;
+        left: 42rem;
+        width: 14rem;
+    }
+    
+    .para {
+        position: relative;
+        font-size: 1.8rem;
+        width: 54rem;
+        left: 1.8rem;
+        bottom: 133.6rem;
+        text-align: right;
+    }
+    
+    #icon {
+        position: relative;
+        left: 0.5rem; 
+        font-size: 3.5rem; 
+        opacity: 0.75; 
+    }
+    
+    .pokemon {
+        display: flex;
+        margin-left: 3rem;
+        margin-top: -78.5rem;
+        width: 52rem;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.9rem;
+        border: 0.3rem solid #001014;
+    }
+    
+    .pm {
+        width: 20rem;
+    }
+    
+    .horizons {
+        padding-bottom: 7rem;
+        text-align: left;
+        width: 65rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 421px) {
+    html {
+        font-size: 8px;
+    }
+    .search-bar {
+        position: relative;
+        display: flex;
+        top: 2rem;
+        height: 5rem;
+        width: 30rem; 
+        margin-left: 2rem; 
+        margin-bottom: 20rem; 
+        align-items: center;
+        gap: 1.3rem; 
+        border-color: black;
+        border-radius: 4rem;
+        border: 0.1rem solid #000; 
+        background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+        background-size: 4rem;
+        padding-left: 7rem; 
+        font-size: 3rem; 
+    }
+    
+    .bg {
+        height: 110rem;
+    }
+    
+    .jjk-yuji {
+        position: relative;
+        width: 30rem;
+        left: 4.5rem;
+        top: 10rem; 
+    }
+    
+    .jjk {
+        position: relative;
+        left: 36.2rem; 
+        bottom: 9.6rem; 
+        font-size: 2.7rem; 
+        width: 25rem; 
+    }
+    
+    .jjk-news {
+        position: relative;
+        width: 51rem;
+        top: -4rem;
+        left: 6rem;
+        font-size: 1.8rem;
+    }
+    
+    .separation {
+        position: relative;
+        width: 0.5rem;
+        height: 64rem;
+        bottom: 77rem;
+        left: 34rem;
+        background: #d3ded3;
+        transform: rotate(90deg);
+    }
+    
+    .anime-talk {
+        position: relative;
+        font-family: karantina;
+        font-size: 4.5rem;
+        bottom: 137.2rem;
+        left: 42rem;
+        width: 14rem;
+    }
+    
+    .para {
+        position: relative;
+        font-size: 1.8rem;
+        width: 54rem;
+        left: 1.8rem;
+        bottom: 133.6rem;
+        text-align: right;
+    }
+    
+    #icon {
+        position: relative;
+        left: 0.5rem; 
+        font-size: 3rem; 
+        opacity: 0.75; 
+    }
+    
+    .pokemon {
+        display: flex;
+        margin-left: 3rem;
+        margin-top: -78.5rem;
+        width: 50rem;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.9rem;
+        border: 0.3rem solid #001014;
+    }
+    
+    .pm {
+        width: 20rem;
+    }
+    
+    .horizons {
+        padding-bottom: 7rem;
+        text-align: left;
+        width: 65rem;
+        font-size: 1.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    html {
+        font-size: 6px;
+    }
+    .search-bar {
+        position: relative;
+        display: flex;
+        top: 2rem;
+        height: 5rem;
+        width: 30rem; 
+        margin-left: 2rem; 
+        margin-bottom: 20rem; 
+        align-items: center;
+        gap: 1.3rem; 
+        border-color: black;
+        border-radius: 4rem;
+        border: 0.1rem solid #000; 
+        background: url(../images/logo/Search.svg) 2.1rem no-repeat; 
+        background-size: 4rem;
+        padding-left: 7rem; 
+        font-size: 3rem; 
+    }
+    
+    .bg {
+        height: 110rem;
+    }
+    
+    .jjk-yuji {
+        position: relative;
+        width: 30rem;
+        left: 4.5rem;
+        top: 10rem; 
+    }
+    
+    .jjk {
+        position: relative;
+        left: 36.2rem; 
+        bottom: 9.6rem; 
+        font-size: 2.7rem; 
+        width: 25rem; 
+    }
+    
+    .jjk-news {
+        position: relative;
+        width: 51rem;
+        top: -4rem;
+        left: 6rem;
+        font-size: 1.8rem;
+    }
+    
+    .separation {
+        position: relative;
+        width: 0.5rem;
+        height: 64rem;
+        bottom: 77rem;
+        left: 34rem;
+        background: #d3ded3;
+        transform: rotate(90deg);
+    }
+    
+    .anime-talk {
+        position: relative;
+        font-family: karantina;
+        font-size: 4.5rem;
+        bottom: 137.2rem;
+        left: 42rem;
+        width: 14rem;
+    }
+    
+    .para {
+        position: relative;
+        font-size: 1.8rem;
+        width: 54rem;
+        left: 1.8rem;
+        bottom: 133.6rem;
+        text-align: right;
+    }
+    
+    #icon {
+        position: relative;
+        left: 0.5rem; 
+        font-size: 3rem; 
+        opacity: 0.75; 
+    }
+    
+    .pokemon {
+        display: flex;
+        margin-left: 3rem;
+        margin-top: -78.5rem;
+        width: 50rem;
+        padding: 2rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 1.9rem;
+        border: 0.3rem solid #001014;
+    }
+    
+    .pm {
+        width: 20rem;
+    }
+    
+    .horizons {
+        padding-bottom: 7rem;
+        text-align: left;
+        width: 65rem;
+        font-size: 1.8rem;
+    }
+}
+

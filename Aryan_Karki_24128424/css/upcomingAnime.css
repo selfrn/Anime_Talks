@@ -1,0 +1,257 @@
+html {
+    font-size: 10px;
+}
+
+.whole {
+    display: flex;
+    padding: 2rem 0 6rem 3%; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 5em;
+}
+
+.KNY-release, .SNK-dub, .ONK, .JJK-news, .ror, .solo-leveling {
+    display: flex;
+    width: 54rem; 
+    padding: 3.1rem 0 0.6rem 0; 
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem; 
+    border: 0.3rem solid #001014; 
+}
+
+.fft {
+    width: 42rem; 
+    text-align: center;
+    font-size: 2.5rem; 
+}
+
+.fst {
+    width: 42rem; 
+    font-size: 2.5rem;
+}
+
+.snd {
+    width: 44rem;
+    font-size: 2.5rem; 
+}
+
+.trd {
+    width: 46.5rem; 
+    font-size: 2.5rem;
+}
+
+.frt {
+    width: 52rem; 
+    font-size: 2.5rem;
+}
+
+.sxt {
+    width: 46rem; 
+    font-size: 2.5rem;
+}
+
+.ONK {
+    padding-top: auto;
+}
+
+
+@media only screen and (max-width: 800px){
+    html {
+        font-size: 9px;
+    }
+        
+    .whole {
+        display: flex;
+        padding: 2rem 0 6rem 3%; 
+        flex-wrap: wrap;
+        align-content: flex-start;
+        gap: 5em;
+    }
+    
+    .KNY-release, .SNK-dub, .ONK, .JJK-news, .ror, .solo-leveling {
+        display: flex;
+        width: 54rem; 
+        padding: 3.1rem 0 0.6rem 0; 
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem; 
+        border: 0.3rem solid #001014; 
+    }
+    
+    .fft {
+        width: 42rem; 
+        text-align: center;
+        font-size: 2.5rem; 
+    }
+    
+    .fst {
+        width: 42rem; 
+        font-size: 2.5rem;
+    }
+    
+    .snd {
+        width: 44rem;
+        font-size: 2.5rem; 
+    }
+    
+    .trd {
+        width: 46.5rem; 
+        font-size: 2.5rem;
+    }
+    
+    .frt {
+        width: 52rem; 
+        font-size: 2.5rem;
+    }
+    
+    .sxt {
+        width: 46rem; 
+        font-size: 2.5rem;
+    }
+    
+    .ONK {
+        padding-top: auto;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 600px){
+    html {
+        font-size: 8px;
+    }
+    
+    .whole {
+        display: flex;
+        padding: 2rem 0 6rem 3%; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        gap: 2em;
+    }
+    
+    .KNY {
+        display: flex;
+        width: 5rem; 
+        padding: 3.1rem 0 0.6rem 0; 
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem; 
+        border: 0.3rem solid #001014; 
+    }
+    .SNK-dub, .ONK, .JJK-news, .ror, .solo-leveling {
+        display: flex;
+        width: 51rem;
+        padding: 1.4rem;
+        flex-direction: row;
+        text-align: left;
+        gap: 1.9rem;
+        border: 0.3rem solid #001014;
+    }
+    .fft {
+        width: 42rem; 
+        text-align: center;
+        font-size: 2.5rem; 
+    }
+    
+    .fst {
+        width: 38rem; 
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .snd, .trd, .frt, .fft, .sxt {
+        width: 38rem; 
+        font-size: 1.5rem;
+        margin-top: -6rem;
+        text-align: left;
+    }
+    .snd-img, .trd-img, .frt-img, .fft-img, .sxt-img {
+        width: 20rem; 
+
+    }
+    
+    
+    .ONK {
+        padding-top: auto;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 420px){
+    html {
+        font-size: 6px;
+    }
+    
+    .whole {
+        display: flex;
+        margin-left: 4.4rem;
+        padding: 2rem 0 6rem 3%; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: flex-start;
+        gap: 2em;
+    }
+    
+    .KNY {
+        display: flex;
+        width: 5rem; 
+        padding: 3.1rem 0 0.6rem 0; 
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem; 
+        border: 0.3rem solid #001014; 
+    }
+    .SNK-dub, .ONK, .JJK-news, .ror, .solo-leveling {
+        display: flex;
+        width: 51rem;
+        padding: 1.4rem;
+        flex-direction: row;
+        text-align: left;
+        gap: 1.9rem;
+        border: 0.3rem solid #001014;
+    }
+    .fft {
+        width: 42rem; 
+        text-align: center;
+        font-size: 2.5rem; 
+    }
+    
+    .fst {
+        width: 38rem; 
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .snd, .trd, .frt, .fft, .sxt {
+        width: 38rem; 
+        font-size: 1.5rem;
+        margin-top: -6rem;
+        text-align: left;
+    }
+    .snd-img, .trd-img, .frt-img, .fft-img, .sxt-img {
+        width: 20rem; 
+
+    }
+    
+    
+    .ONK {
+        padding-top: auto;
+    }
+    
+}
+
+
+
+
+
+
+

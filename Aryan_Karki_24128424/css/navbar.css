@@ -1,0 +1,103 @@
+
+body {
+  background-color: #d3ded3;
+  font-family: 'Inter';
+  overflow-x: hidden;
+  width: auto;
+}
+
+.container {
+  flex: 1;
+}
+
+.menu-toggle {
+  display: none;
+}
+.bg {
+  width: 124rem;
+  background-color: #FFFFFF;
+  margin: 0 auto 0 auto;
+  font-family: "Inter";
+}
+
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.pgs{
+  font-size: 15px;
+}
+.navbar {
+  background-color: #001014;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.lname{
+  font-size: 42px;
+  font-family: "Karantina";
+}
+.brand {
+  display: flex;
+  color: #FFFFFF;
+  font-size: 36px;
+  font-weight: 650px;
+  font-family: "Karatina";
+  align-items: center;
+}
+.brand span{
+  margin-left: 20px;
+}
+
+.nav-links {
+  display: flex;
+
+}
+.logo{
+  height: 50px;}
+
+.navbar a {
+  color: #d3d3d3;
+  text-decoration: none;
+  padding: 13px 13px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.navbar a:hover a:visited {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+.menu-toggle:checked + .menu-icon + .nav-links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: 0;
+  right: 0;
+  background-color: #001014;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 900px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar a {
+    display: none;
+    width: 100%;
+    align-self: end;
+    text-align: center;
+  }
+
+  .menu-toggle:checked + .menu-icon + .nav-links a {
+    display: block;
+  }
+}
+
+
